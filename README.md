@@ -1,2 +1,2 @@
-# Kviz
+# Quiz
 Quiz applications from Serbian culture and cultural heritage
