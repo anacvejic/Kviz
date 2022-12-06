@@ -10,7 +10,7 @@ Quiz applications from Serbian culture and cultural heritage
 
 ## General info
 
-Appliaction Quiz is the part of my master research. The application "Culture and cultural heritage" contains the following areas: music, theater, film, architecture, history, literature, Serbian sacred, archaeological sites, prominent figures of Serbian culture and science. In addition to questions and answers, the application is designed as a kind of reminder, it also contains information about cultural events, archaeological sites, and Serbian sacred that should be visited. Application is on serbian language.
+Appliaction Quiz is the part of my master research. The application "Culture and cultural heritage" contains the following areas: music, theater, film, architecture, history, literature, Serbian sacred, archaeological sites, prominent figures of Serbian culture and science. In addition to questions and answers, the application is designed as a kind of reminder, it also contains information about cultural events, archaeological sites, and Serbian sacred that should be visited. Application is on Serbian language.
 
 ## Technologies
 
