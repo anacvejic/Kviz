@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C512D4B4291D38A10017752D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C512D4B3291D38A10017752D /* Reachability.swift */; };
+		C5ED54C52912C29400AB8C21 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ED54C42912C29400AB8C21 /* ResultViewController.swift */; };
+		C5ED54C72912DE0C00AB8C21 /* OAplikacijiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ED54C62912DE0C00AB8C21 /* OAplikacijiViewController.swift */; };
+		F1230A21DA6EFF0808C26AF3 /* Pods_Kviz_znanja.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433403426B72BD3C42B4FB4C /* Pods_Kviz_znanja.framework */; };
+		F9058858290F1911004B54C4 /* ZanimljivostiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9058857290F1911004B54C4 /* ZanimljivostiViewController.swift */; };
+		F905885A290F240A004B54C4 /* ZanimljivostiPitanjaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9058859290F240A004B54C4 /* ZanimljivostiPitanjaViewController.swift */; };
+		F905885C290F48E0004B54C4 /* DetaljiZanimljivostiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F905885B290F48E0004B54C4 /* DetaljiZanimljivostiViewController.swift */; };
+		F9058860290F649F004B54C4 /* GifLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F905885F290F649F004B54C4 /* GifLoad.swift */; };
+		F90790AA29060C2D00ABD041 /* PitanjaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90790A929060C2D00ABD041 /* PitanjaViewController.swift */; };
+		F90790AC2906F44400ABD041 /* KvizPitanja.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90790AB2906F44400ABD041 /* KvizPitanja.swift */; };
+		F90E62DC2904572600BC10AA /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E62DB2904572600BC10AA /* FirstPageViewController.swift */; };
+		F90E62F72905B2FB00BC10AA /* trueAnswer.wav in Resources */ = {isa = PBXBuildFile; fileRef = F90E62F62905B2FB00BC10AA /* trueAnswer.wav */; };
+		F90E62F92905C18F00BC10AA /* EndQvizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E62F82905C18F00BC10AA /* EndQvizViewController.swift */; };
+		F968C95D2916EF56000936B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F968C95C2916EF56000936B1 /* Assets.xcassets */; };
+		F968C95F2916F7FE000936B1 /* winner.gif in Resources */ = {isa = PBXBuildFile; fileRef = F968C95E2916F7FE000936B1 /* winner.gif */; };
+		F968C9652916FB37000936B1 /* sovica_jedan.gif in Resources */ = {isa = PBXBuildFile; fileRef = F968C9642916FB37000936B1 /* sovica_jedan.gif */; };
+		F968C9672916FB45000936B1 /* YOPR.gif in Resources */ = {isa = PBXBuildFile; fileRef = F968C9662916FB45000936B1 /* YOPR.gif */; };
+		F968C96F29197827000936B1 /* tacan.wav in Resources */ = {isa = PBXBuildFile; fileRef = F968C96E29197827000936B1 /* tacan.wav */; };
+		F968C97129197835000936B1 /* netacan.wav in Resources */ = {isa = PBXBuildFile; fileRef = F968C97029197834000936B1 /* netacan.wav */; };
+		F968C9732919783F000936B1 /* kraj.wav in Resources */ = {isa = PBXBuildFile; fileRef = F968C9722919783F000936B1 /* kraj.wav */; };
+		F968C97529198935000936B1 /* konfeti.gif in Resources */ = {isa = PBXBuildFile; fileRef = F968C97429198935000936B1 /* konfeti.gif */; };
+		F968C9792919A2A7000936B1 /* baloni.gif in Resources */ = {isa = PBXBuildFile; fileRef = F968C9782919A2A7000936B1 /* baloni.gif */; };
+		F9F9F23029032E0F00E0E87C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9F22F29032E0F00E0E87C /* AppDelegate.swift */; };
+		F9F9F23229032E1000E0E87C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9F23129032E1000E0E87C /* SceneDelegate.swift */; };
+		F9F9F23429032E1000E0E87C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9F23329032E1000E0E87C /* ViewController.swift */; };
+		F9F9F23729032E1000E0E87C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F9F23529032E1000E0E87C /* Main.storyboard */; };
+		F9F9F23C29032E1200E0E87C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F9F23A29032E1200E0E87C /* LaunchScreen.storyboard */; };
+		F9F9F24429032FA200E0E87C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9F9F24329032FA200E0E87C /* GoogleService-Info.plist */; };
+		F9F9F2462903334A00E0E87C /* KvizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9F2452903334A00E0E87C /* KvizViewController.swift */; };
+		F9F9F24E2903445100E0E87C /* Pitanja.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9F24D2903445100E0E87C /* Pitanja.swift */; };
+		F9F9F2542903524200E0E87C /* FIRCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9F2532903524200E0E87C /* FIRCollectionReference.swift */; };
+		F9F9F2562903529C00E0E87C /* FIRFirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9F2552903529C00E0E87C /* FIRFirestoreService.swift */; };
+		F9FA5C532907500300315A56 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FA5C522907500300315A56 /* User.swift */; };
+		F9FA5C59290B31F800315A56 /* KulturnaDesavanjaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FA5C58290B31F800315A56 /* KulturnaDesavanjaViewController.swift */; };
+		F9FA5C5B290B37E500315A56 /* KulturnaDesavanja.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FA5C5A290B37E500315A56 /* KulturnaDesavanja.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3447C9AAFEC69703328C0679 /* Pods-Kviz_znanja.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kviz_znanja.debug.xcconfig"; path = "Target Support Files/Pods-Kviz_znanja/Pods-Kviz_znanja.debug.xcconfig"; sourceTree = "<group>"; };
+		433403426B72BD3C42B4FB4C /* Pods_Kviz_znanja.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kviz_znanja.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5CEDEBCF5461CFFBC42C70 /* Pods-Kviz_znanja.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kviz_znanja.release.xcconfig"; path = "Target Support Files/Pods-Kviz_znanja/Pods-Kviz_znanja.release.xcconfig"; sourceTree = "<group>"; };
+		C512D4B3291D38A10017752D /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		C5ED54C42912C29400AB8C21 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		C5ED54C62912DE0C00AB8C21 /* OAplikacijiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAplikacijiViewController.swift; sourceTree = "<group>"; };
+		F9058857290F1911004B54C4 /* ZanimljivostiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZanimljivostiViewController.swift; sourceTree = "<group>"; };
+		F9058859290F240A004B54C4 /* ZanimljivostiPitanjaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZanimljivostiPitanjaViewController.swift; sourceTree = "<group>"; };
+		F905885B290F48E0004B54C4 /* DetaljiZanimljivostiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaljiZanimljivostiViewController.swift; sourceTree = "<group>"; };
+		F905885F290F649F004B54C4 /* GifLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLoad.swift; sourceTree = "<group>"; };
+		F90790A929060C2D00ABD041 /* PitanjaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitanjaViewController.swift; sourceTree = "<group>"; };
+		F90790AB2906F44400ABD041 /* KvizPitanja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KvizPitanja.swift; sourceTree = "<group>"; };
+		F90E62DB2904572600BC10AA /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		F90E62F62905B2FB00BC10AA /* trueAnswer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = trueAnswer.wav; sourceTree = "<group>"; };
+		F90E62F82905C18F00BC10AA /* EndQvizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndQvizViewController.swift; sourceTree = "<group>"; };
+		F968C95C2916EF56000936B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F968C95E2916F7FE000936B1 /* winner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = winner.gif; sourceTree = "<group>"; };
+		F968C9642916FB37000936B1 /* sovica_jedan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sovica_jedan.gif; sourceTree = "<group>"; };
+		F968C9662916FB45000936B1 /* YOPR.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YOPR.gif; sourceTree = "<group>"; };
+		F968C96E29197827000936B1 /* tacan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tacan.wav; sourceTree = "<group>"; };
+		F968C97029197834000936B1 /* netacan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = netacan.wav; sourceTree = "<group>"; };
+		F968C9722919783F000936B1 /* kraj.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kraj.wav; sourceTree = "<group>"; };
+		F968C97429198935000936B1 /* konfeti.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = konfeti.gif; sourceTree = "<group>"; };
+		F968C9782919A2A7000936B1 /* baloni.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = baloni.gif; sourceTree = "<group>"; };
+		F9F9F22C29032E0F00E0E87C /* Kviz_znanja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kviz_znanja.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F9F22F29032E0F00E0E87C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9F9F23129032E1000E0E87C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9F9F23329032E1000E0E87C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9F9F23629032E1000E0E87C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9F9F23B29032E1200E0E87C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9F9F23D29032E1200E0E87C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F9F24329032FA200E0E87C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F9F9F2452903334A00E0E87C /* KvizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KvizViewController.swift; sourceTree = "<group>"; };
+		F9F9F24D2903445100E0E87C /* Pitanja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitanja.swift; sourceTree = "<group>"; };
+		F9F9F2532903524200E0E87C /* FIRCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRCollectionReference.swift; sourceTree = "<group>"; };
+		F9F9F2552903529C00E0E87C /* FIRFirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRFirestoreService.swift; sourceTree = "<group>"; };
+		F9FA5C522907500300315A56 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F9FA5C58290B31F800315A56 /* KulturnaDesavanjaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulturnaDesavanjaViewController.swift; sourceTree = "<group>"; };
+		F9FA5C5A290B37E500315A56 /* KulturnaDesavanja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulturnaDesavanja.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9F9F22929032E0F00E0E87C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1230A21DA6EFF0808C26AF3 /* Pods_Kviz_znanja.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E2DDD6C6915BC8EB3872626 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				433403426B72BD3C42B4FB4C /* Pods_Kviz_znanja.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED4E4EE55137DF2BE7334D92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3447C9AAFEC69703328C0679 /* Pods-Kviz_znanja.debug.xcconfig */,
+				7A5CEDEBCF5461CFFBC42C70 /* Pods-Kviz_znanja.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F90E62DD290475D500BC10AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F90E62DE290475E300BC10AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9FA5C522907500300315A56 /* User.swift */,
+				F90790AB2906F44400ABD041 /* KvizPitanja.swift */,
+				F9FA5C5A290B37E500315A56 /* KulturnaDesavanja.swift */,
+				F9F9F24D2903445100E0E87C /* Pitanja.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F90E62DF290475ED00BC10AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F90E62DB2904572600BC10AA /* FirstPageViewController.swift */,
+				F9F9F2452903334A00E0E87C /* KvizViewController.swift */,
+				F9058857290F1911004B54C4 /* ZanimljivostiViewController.swift */,
+				F9058859290F240A004B54C4 /* ZanimljivostiPitanjaViewController.swift */,
+				F905885B290F48E0004B54C4 /* DetaljiZanimljivostiViewController.swift */,
+				F9F9F23329032E1000E0E87C /* ViewController.swift */,
+				F90790A929060C2D00ABD041 /* PitanjaViewController.swift */,
+				F9FA5C58290B31F800315A56 /* KulturnaDesavanjaViewController.swift */,
+				C5ED54C62912DE0C00AB8C21 /* OAplikacijiViewController.swift */,
+				F90E62F82905C18F00BC10AA /* EndQvizViewController.swift */,
+				C5ED54C42912C29400AB8C21 /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F968C96A29170C48000936B1 /* Funkcije */ = {
+			isa = PBXGroup;
+			children = (
+				C512D4B3291D38A10017752D /* Reachability.swift */,
+				F905885F290F649F004B54C4 /* GifLoad.swift */,
+			);
+			path = Funkcije;
+			sourceTree = "<group>";
+		};
+		F968C96D291970E4000936B1 /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				F968C9662916FB45000936B1 /* YOPR.gif */,
+				F968C9642916FB37000936B1 /* sovica_jedan.gif */,
+				F968C9782919A2A7000936B1 /* baloni.gif */,
+				F968C97429198935000936B1 /* konfeti.gif */,
+				F968C95E2916F7FE000936B1 /* winner.gif */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
+		F968C97A2919B80A000936B1 /* Wav */ = {
+			isa = PBXGroup;
+			children = (
+				F968C9722919783F000936B1 /* kraj.wav */,
+				F968C96E29197827000936B1 /* tacan.wav */,
+				F968C97029197834000936B1 /* netacan.wav */,
+			);
+			path = Wav;
+			sourceTree = "<group>";
+		};
+		F9F9F22329032E0F00E0E87C = {
+			isa = PBXGroup;
+			children = (
+				F9F9F22E29032E0F00E0E87C /* Kviz_znanja */,
+				F9F9F22D29032E0F00E0E87C /* Products */,
+				ED4E4EE55137DF2BE7334D92 /* Pods */,
+				2E2DDD6C6915BC8EB3872626 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9F9F22D29032E0F00E0E87C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9F9F22C29032E0F00E0E87C /* Kviz_znanja.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9F9F22E29032E0F00E0E87C /* Kviz_znanja */ = {
+			isa = PBXGroup;
+			children = (
+				F968C97A2919B80A000936B1 /* Wav */,
+				F968C96D291970E4000936B1 /* Gif */,
+				F968C96A29170C48000936B1 /* Funkcije */,
+				F90E62DF290475ED00BC10AA /* Controller */,
+				F90E62DE290475E300BC10AA /* Model */,
+				F90E62DD290475D500BC10AA /* View */,
+				F9F9F24329032FA200E0E87C /* GoogleService-Info.plist */,
+				F968C95C2916EF56000936B1 /* Assets.xcassets */,
+				F9F9F23A29032E1200E0E87C /* LaunchScreen.storyboard */,
+				F9F9F23529032E1000E0E87C /* Main.storyboard */,
+				F9F9F22F29032E0F00E0E87C /* AppDelegate.swift */,
+				F9F9F23129032E1000E0E87C /* SceneDelegate.swift */,
+				F90E62F62905B2FB00BC10AA /* trueAnswer.wav */,
+				F9F9F23D29032E1200E0E87C /* Info.plist */,
+				F9F9F2532903524200E0E87C /* FIRCollectionReference.swift */,
+				F9F9F2552903529C00E0E87C /* FIRFirestoreService.swift */,
+			);
+			path = Kviz_znanja;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9F9F22B29032E0F00E0E87C /* Kviz_znanja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F9F24029032E1200E0E87C /* Build configuration list for PBXNativeTarget "Kviz_znanja" */;
+			buildPhases = (
+				620D709308394D5FBE24383E /* [CP] Check Pods Manifest.lock */,
+				F9F9F22829032E0F00E0E87C /* Sources */,
+				F9F9F22929032E0F00E0E87C /* Frameworks */,
+				F9F9F22A29032E0F00E0E87C /* Resources */,
+				F26D6E231B61DBEE52C49F99 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kviz_znanja;
+			productName = Kviz_znanja;
+			productReference = F9F9F22C29032E0F00E0E87C /* Kviz_znanja.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9F9F22429032E0F00E0E87C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = anacvejic;
+				TargetAttributes = {
+					F9F9F22B29032E0F00E0E87C = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = F9F9F22729032E0F00E0E87C /* Build configuration list for PBXProject "Kviz_znanja" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9F9F22329032E0F00E0E87C;
+			productRefGroup = F9F9F22D29032E0F00E0E87C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9F9F22B29032E0F00E0E87C /* Kviz_znanja */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9F9F22A29032E0F00E0E87C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F9F23C29032E1200E0E87C /* LaunchScreen.storyboard in Resources */,
+				F968C9652916FB37000936B1 /* sovica_jedan.gif in Resources */,
+				F90E62F72905B2FB00BC10AA /* trueAnswer.wav in Resources */,
+				F968C9792919A2A7000936B1 /* baloni.gif in Resources */,
+				F968C97529198935000936B1 /* konfeti.gif in Resources */,
+				F9F9F24429032FA200E0E87C /* GoogleService-Info.plist in Resources */,
+				F968C95F2916F7FE000936B1 /* winner.gif in Resources */,
+				F968C95D2916EF56000936B1 /* Assets.xcassets in Resources */,
+				F968C9672916FB45000936B1 /* YOPR.gif in Resources */,
+				F9F9F23729032E1000E0E87C /* Main.storyboard in Resources */,
+				F968C96F29197827000936B1 /* tacan.wav in Resources */,
+				F968C9732919783F000936B1 /* kraj.wav in Resources */,
+				F968C97129197835000936B1 /* netacan.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		620D709308394D5FBE24383E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kviz_znanja-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F26D6E231B61DBEE52C49F99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kviz_znanja/Pods-Kviz_znanja-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kviz_znanja/Pods-Kviz_znanja-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kviz_znanja/Pods-Kviz_znanja-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9F9F22829032E0F00E0E87C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5ED54C72912DE0C00AB8C21 /* OAplikacijiViewController.swift in Sources */,
+				F905885C290F48E0004B54C4 /* DetaljiZanimljivostiViewController.swift in Sources */,
+				F9FA5C532907500300315A56 /* User.swift in Sources */,
+				F90790AC2906F44400ABD041 /* KvizPitanja.swift in Sources */,
+				F9FA5C5B290B37E500315A56 /* KulturnaDesavanja.swift in Sources */,
+				F9F9F23429032E1000E0E87C /* ViewController.swift in Sources */,
+				F905885A290F240A004B54C4 /* ZanimljivostiPitanjaViewController.swift in Sources */,
+				F9FA5C59290B31F800315A56 /* KulturnaDesavanjaViewController.swift in Sources */,
+				F90E62F92905C18F00BC10AA /* EndQvizViewController.swift in Sources */,
+				F9F9F23029032E0F00E0E87C /* AppDelegate.swift in Sources */,
+				F90790AA29060C2D00ABD041 /* PitanjaViewController.swift in Sources */,
+				F9F9F2542903524200E0E87C /* FIRCollectionReference.swift in Sources */,
+				F9058858290F1911004B54C4 /* ZanimljivostiViewController.swift in Sources */,
+				F9F9F2562903529C00E0E87C /* FIRFirestoreService.swift in Sources */,
+				F9F9F2462903334A00E0E87C /* KvizViewController.swift in Sources */,
+				C5ED54C52912C29400AB8C21 /* ResultViewController.swift in Sources */,
+				F90E62DC2904572600BC10AA /* FirstPageViewController.swift in Sources */,
+				C512D4B4291D38A10017752D /* Reachability.swift in Sources */,
+				F9058860290F649F004B54C4 /* GifLoad.swift in Sources */,
+				F9F9F24E2903445100E0E87C /* Pitanja.swift in Sources */,
+				F9F9F23229032E1000E0E87C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9F9F23529032E1000E0E87C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F9F23629032E1000E0E87C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9F9F23A29032E1200E0E87C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F9F23B29032E1200E0E87C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9F9F23E29032E1200E0E87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9F9F23F29032E1200E0E87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9F9F24129032E1200E0E87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3447C9AAFEC69703328C0679 /* Pods-Kviz_znanja.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kviz_znanja/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anacvejic.Kviz-znanja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9F9F24229032E1200E0E87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5CEDEBCF5461CFFBC42C70 /* Pods-Kviz_znanja.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kviz_znanja/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anacvejic.Kviz-znanja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9F9F22729032E0F00E0E87C /* Build configuration list for PBXProject "Kviz_znanja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F9F23E29032E1200E0E87C /* Debug */,
+				F9F9F23F29032E1200E0E87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F9F24029032E1200E0E87C /* Build configuration list for PBXNativeTarget "Kviz_znanja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F9F24129032E1200E0E87C /* Debug */,
+				F9F9F24229032E1200E0E87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9F9F22429032E0F00E0E87C /* Project object */;
+}
